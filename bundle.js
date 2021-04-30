@@ -14,9 +14,7 @@ function palindromeTester() {
 
 document.addEventListener("DOMContentLoaded", function() {
   let button = document.querySelector("#palindromeTester");
-  button.addEventListener("click", function() {
-    palindromeTester();
-  });
+  button.addEventListener("click", palindromeTester);
 });
 
 },{"evets122-palindrome":2}],2:[function(require,module,exports){
